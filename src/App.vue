@@ -8,11 +8,11 @@
                 :type="character.type"
                 :name="character.name"
                 :frameType="character.frameType"
+                :desc="character.desc"
               />  
             </div>
     </div>
   </div>
-    <div class="text-center py-3">found: {{ store.characterList.length}} character</div>
 </template>
 
 <script>
