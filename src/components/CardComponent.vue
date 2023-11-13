@@ -4,6 +4,7 @@
         <h5>Name: {{ name }}</h5>
         <div>Type: {{ type }}</div>
         <div>Frame Type: {{ frameType }}</div>
+        <div>Description: {{ desc }}</div>
     </div>
 </template>
 
@@ -15,6 +16,7 @@ export default{
         name:String,
         type:String,
         frameType:String,
+        desc:String,
     },
     data(){
         return{
