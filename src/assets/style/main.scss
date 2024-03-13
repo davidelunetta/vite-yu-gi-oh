@@ -8,12 +8,14 @@
     box-sizing: border-box;
 }
 
-.my-card{
-    text-align: center;
-}
 
-figure{
-    overflow: hidden;
+//PALETTE
 
+$primary: #0000FF;
+$secondary: #FFD700;
+$jolly: #FF0000;
+
+body{
+    background-image: url(../public/background.jpg);
 
 }
