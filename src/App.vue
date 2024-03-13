@@ -1,8 +1,8 @@
 <template>
   <HeaderComponent/>
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
-            <div v-for="(character, index) in store.characterList" :key="character.id" class="col-3 p-3 my-card">
+            <div v-for="(character, index) in store.characterList" :key="character.id" class=" col-3 p-4">
               <CardComponent
                 :img="character.card_images[0].image_url_small"
                 :type="character.type"
@@ -50,5 +50,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  
+    body{
+        background-image: url(../public/background.jpg);
+    }
 </style>
