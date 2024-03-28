@@ -1,6 +1,9 @@
 <template>
     <header>
-       <h1 class="text-center py-3">{{ store.title }}</h1> 
+        <div class="d-flex justify-content-between">
+            <img src="/yu-gi-oh-logo-1.png" alt="logo" class="py-3 ps-4">
+        </div>
+       
     </header>
 </template>
 
@@ -11,12 +14,14 @@ export default{
 
     data(){
         return{
-            store
+            store,
         }
-    }
+    },
 }
 </script>
 
 <style lang="scss" scoped>
-    
+    img{
+        width: 180px;
+    }
 </style>
